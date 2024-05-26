@@ -710,3 +710,47 @@ footer{
   display:flex;
   gap:1rem;
 }
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  /* For tablets and small screens */
+ .hero-section-left {
+    flex-basis: 80%;
+  }
+ .hero-section-right {
+    flex-basis: 20%;
+  }
+ .project-card {
+    flex-basis: 90%;
+  }
+ .skill-container-left {
+    flex-basis: 80%;
+  }
+ .skill-container-right {
+    flex-basis: 20%;
+  }
+ .contactus-form-container {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* For mobile devices */
+ .hero-section-left {
+    flex-basis: 100%;
+  }
+ .hero-section-right {
+    display: none;
+  }
+ .project-card {
+    flex-basis: 100%;
+  }
+ .skill-container-left {
+    flex-basis: 100%;
+  }
+ .skill-container-right {
+    display: none;
+  }
+ .contactus-form-container {
+    max-width: 300px;
+  }
+}
